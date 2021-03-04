@@ -1,5 +1,5 @@
 # Name
-assignment-7-Nethra103
+Google Spread sheet application
 
 # Description
 - Introducing the javascript Rxjs library to gain understanding of various concepts and its application
