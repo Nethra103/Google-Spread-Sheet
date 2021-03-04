@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SpreadSheet</title>
+    <!-- link tag to refer stylesheet -->
+    <link href="/dist/main.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h1>SpreadSheet</h1>   
+        <!-- div class for buttons -->
+        <div class="navbar">
+            <h4>Alter columns here</h4>
+            <button class="btn" id="addCol">Add Column</button>
+            <button class="btn" id="delCol">Delete Column</button>
+            <button class="btn" id="import">Importcsv</button>
+        </div>
+    </nav>
+    <!-- spreadsheet entry -->
+    <div id="SS">
+    </div>
+    <div class="navbar">
+        <h4>Alter Rows</h4>
+        <button class="btn" id="addRow">Add Row</button>
+        <button class="btn" id="delRow">Delete Row</button>
+        <button class="btn" id="export">Exportcsv</button>
+    </div>
+    <input type="file" id="csvUpload" class="fileUpload" />
+    <!-- cdn to refer rxjs -->
+    <script src="https://unpkg.com/rxjs/bundles/rxjs.umd.min.js"></script>
+    <!-- script tag for js -->
+    <script src="js/Spreadsheet.js"></script>
+</body>
+</html>
